@@ -1,0 +1,110 @@
+{
+   "0":{
+      "id":"header_caba",
+      "name":"College of Accountancy and Business Administration",
+      "img":"header_caba",
+      "description":"caba"
+   },
+   "1":{
+      "id":"header_arts",
+      "name":"College of Arts and Languages",
+      "img":"header_arts",
+      "description":"artsandlanguage"
+   },
+   "2":{
+      "id":"header_caregiver",
+      "name":"Caregiver Department",
+      "img":"header_caregiver",
+      "description":"caregiver"
+   },
+   "3":{
+      "id":"header_ccs",
+      "name":"College of Computer Studies",
+      "img":"header_ccs",
+      "description":"ccs"
+   },
+   "4":{
+      "id":"header_crim",
+      "name":"College of Criminology",
+      "img":"header_crim",
+      "description":"criminology"
+   },
+   "5":{
+      "id":"header_education",
+      "name":"College of Education",
+      "img":"header_education",
+      "description":"education"
+   },
+   "6":{
+      "id":"header_engineering",
+      "name":"College of Engineering and Architecture",
+      "img":"header_engineering",
+      "description":"engg"
+   },
+   "7":{
+      "id":"header_tourism",
+      "name":"School of Hotel and Restaurant Services and Tourism Management",
+      "img":"header_tourism",
+      "description":"hrm"
+   },
+   "8":{
+      "id":"header_law",
+      "name":"College of Law",
+      "img":"header_law",
+      "description":""
+   },
+   "9":{
+      "id":"header_lbis",
+      "name":"Library and Information Science Department",
+      "img":"header_lbis",
+      "description":""
+   },
+   "10":{
+      "id":"header_midwifery",
+      "name":"School of Midwifery",
+      "img":"header_midwifery",
+      "description":"midwife"
+   },
+   "11":{
+      "id":"header_nursing",
+      "name":"College of Nursing",
+      "img":"header_nursing",
+      "description":"nursing"
+   },
+   "12":{
+      "id":"header_pharma",
+      "name":"College of Pharmacy",
+      "img":"header_pharma",
+      "description":"pharmacy"
+   },
+   "13":{
+      "id":"header_polsci",
+      "name":"Political Science Department",
+      "img":"header_polsci",
+      "description":""
+   },
+   "14":{
+      "id":"header_math",
+      "name":"College of Science and Mathematics",
+      "img":"header_math",
+      "description":"math"
+   },
+   "15":{
+      "id":"header_social",
+      "name":"College of Social Works",
+      "img":"header_social",
+      "description":"sw"
+   },
+   "16":{
+      "id":"header_gs",
+      "name":"Graduate Studies",
+      "img":"header_gs",
+      "description":"graduatestudies"
+   },
+   "17":{
+      "id":"header_cpd",
+      "name":"Continuing Professional Development",
+      "img":"header_cpd",
+      "description":"cpd"
+   }
+}

@@ -1,0 +1,24 @@
+package edu.ajdeguzman.wecab;
+
+import android.app.Application;
+
+import com.parse.Parse;
+import com.parse.ParseACL;
+import com.parse.ParseUser;
+
+public class ParseApplication extends Application {
+
+	@Override
+	public void onCreate() {
+		super.onCreate();
+
+		Parse.initialize(this, getResources().getString(R.string.parse_app_id),  getResources().getString(R.string.parse_client_key));
+
+
+		ParseUser.enableAutomaticUser();
+		ParseACL defaultACL = new ParseACL();
+		defaultACL.setPublicReadAccess(true);
+		ParseACL.setDefaultACL(defaultACL, true);
+	}
+
+}

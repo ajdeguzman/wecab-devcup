@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter Plate #"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textColor="@color/myPrimaryDarkColor"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_marginRight="237dp"
+        android:layout_marginEnd="237dp" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtSearchEntry"
+        android:hint="Enter plate number"
+        android:background="@drawable/textbox"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstResults"
+        android:divider="#E8E8E8"
+        android:dividerHeight="4px"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:choiceMode="singleChoice" />
+</LinearLayout>
